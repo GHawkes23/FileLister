@@ -15,10 +15,11 @@ public class FileLister {
         Scanner scnr = new Scanner(System.in);
         System.out.println("What file token are you looking for? (Type Exit to stop, leave blank for all)");
         String fileType = scnr.nextLine();
-        System.out.println("What format should the output be?");
-        String format = scnr.nextLine();
+
         if (fileType.toLowerCase().equals("exit"))
             System.exit(0);    
+        System.out.println("What format should the output be?");
+        String format = scnr.nextLine();
         fileType = fileType.replace(".", "");
         if(!format.startsWith(".")) format = "." + format;
         output(("Files Of Type ." + fileType + " in this directory: "), fileType, format);
