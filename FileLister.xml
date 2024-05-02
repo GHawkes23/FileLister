@@ -15,10 +15,10 @@
   <manifest></manifest>
   <icon>C:\Users\Smurf\OneDrive\Documents\CSU\Centroid\FileLister\MidStep\FLICON.ico</icon>
   <jre>
-    <path>..\jre</path>
+    <path>..\jre\bin\javaw.exe</path>
     <requiresJdk>false</requiresJdk>
     <requires64Bit>false</requires64Bit>
     <minVersion>1.8</minVersion>
-    <maxVersion></maxVersion>
+    <maxVersion>1.9</maxVersion>
   </jre>
 </launch4jConfig>
